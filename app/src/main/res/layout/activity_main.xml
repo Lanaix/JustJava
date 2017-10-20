@@ -23,26 +23,28 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-    <Button
-        android:text="+"
-        android:layout_height="48dp"
-        android:layout_width="48dp"
-        android:onClick="increment" />
+        <Button
+            android:text="-"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:onClick="decrement" />
 
-    <TextView
-        android:text="0"
-        android:id="@+id/zero_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textColor="@android:color/black"/>
+        <TextView
+            android:text="0"
+            android:id="@+id/zero_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"/>
 
-    <Button
-        android:text="-"
-        android:layout_height="48dp"
-        android:layout_width="48dp"
-        android:onClick="decrement" />
-<LinearLayout/>
+        <Button
+            android:text="+"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
+            android:onClick="increment" />
+    </LinearLayout>
 
     <TextView
         android:text="Price"
@@ -69,3 +71,4 @@
         android:id="@+id/button" />
 
 
+</LinearLayout>
